@@ -1,0 +1,41 @@
+
+
+Threshold values:
+
+Deembed 400
+N60 - (315) - 
+N70 - (153.5) - 
+N80 - (70.5) - 
+N90 - (33.5) - 
+N100 - (15) - 
+N110 - (5) - 
+N120 - (3) - 
+
+Deembed 350
+N60 - (316)
+N70 - (153) - 
+N80 - (74.5) - 
+N90 - (33.5) - 
+N100 - (15.5) - 
+N110 - (5) - 
+N120 - (3) - 
+
+Deembed 450
+N60 - (315) -{Needs smaller freq window}
+N70 - (154) - 
+N80 - (70.75) - 
+N90 - (32.5) - 
+N100 - (15.5) - 
+N110 - (5.5) - 
+N120 - (2.5) - 
+
+
+DDFB_FD_Active_NXX_v-1:
+Copied old N=60 code with the right thresholds. 
+Change N & the parametric sweep.
+
+
+DDFB_FD_Active_NXX_diffDeembedLength_v1:
+Try deembedLength= 350, 450, 300, 500 (original was 400).
+Try to see if the lasing threshold is at the same position.
+If they change too much, try 375; 425, etc.
